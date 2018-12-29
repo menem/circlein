@@ -10,9 +10,13 @@ import UIKit
 
 class ChatViewController: UIViewController {
 
+    @IBOutlet weak var burgerMenuBarButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.burgerMenuBarButton.target = self.revealViewController()
+        self.burgerMenuBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         // Do any additional setup after loading the view.
     }
     
