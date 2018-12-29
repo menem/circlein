@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4B9F4B1D6398C3A232B18E /* Pods_circleinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B860FFD1E239479B6045C399 /* Pods_circleinUITests.framework */; };
+		486A614221D7E52F0077D27A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486A614121D7E52F0077D27A /* SWRevealViewController.m */; };
 		4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885394C21D64DEB00F97E25 /* AppDelegate.swift */; };
 		4885394F21D64DEB00F97E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885394E21D64DEB00F97E25 /* ViewController.swift */; };
 		4885395221D64DEC00F97E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885395021D64DEC00F97E25 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		4885395721D64DF300F97E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885395521D64DF300F97E25 /* LaunchScreen.storyboard */; };
 		4885396221D64DF400F97E25 /* circleinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885396121D64DF400F97E25 /* circleinTests.swift */; };
 		4885396D21D64DF400F97E25 /* circleinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885396C21D64DF400F97E25 /* circleinUITests.swift */; };
+		49B6B2379C45CAD3410A2657 /* Pods_circleinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB96F5523354F1C38269DCB0 /* Pods_circleinTests.framework */; };
+		819EE9A45B03E5AC0D811F16 /* Pods_circlein.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D72F0FD37B7FC32F9BCB36 /* Pods_circlein.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003534484FC46ED337211CC9 /* Pods-circlein.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circlein.release.xcconfig"; path = "Pods/Target Support Files/Pods-circlein/Pods-circlein.release.xcconfig"; sourceTree = "<group>"; };
+		486A613F21D7E52C0077D27A /* circlein-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "circlein-Bridging-Header.h"; sourceTree = "<group>"; };
+		486A614021D7E52E0077D27A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		486A614121D7E52F0077D27A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		4885394921D64DEB00F97E25 /* circlein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circlein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885394C21D64DEB00F97E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4885394E21D64DEB00F97E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		4885396821D64DF400F97E25 /* circleinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885396C21D64DF400F97E25 /* circleinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleinUITests.swift; sourceTree = "<group>"; };
 		4885396E21D64DF400F97E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522A4BABDA164D6A2F50FBDB /* Pods-circleinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleinUITests/Pods-circleinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6865FD352E9F73DDA61CE985 /* Pods-circlein.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circlein.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circlein/Pods-circlein.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8176393C594FBE4EF1CC61 /* Pods-circleinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleinTests/Pods-circleinTests.release.xcconfig"; sourceTree = "<group>"; };
+		B860FFD1E239479B6045C399 /* Pods_circleinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circleinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD0050FC0BC63289EC74558 /* Pods-circleinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleinTests/Pods-circleinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D72F0FD37B7FC32F9BCB36 /* Pods_circlein.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circlein.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB96F5523354F1C38269DCB0 /* Pods_circleinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circleinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF50111868A70F04C10A43AC /* Pods-circleinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleinUITests/Pods-circleinUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819EE9A45B03E5AC0D811F16 /* Pods_circlein.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B6B2379C45CAD3410A2657 /* Pods_circleinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4B9F4B1D6398C3A232B18E /* Pods_circleinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		486A613E21D7E4BE0077D27A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				486A614021D7E52E0077D27A /* SWRevealViewController.h */,
+				486A614121D7E52F0077D27A /* SWRevealViewController.m */,
+				486A613F21D7E52C0077D27A /* circlein-Bridging-Header.h */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		4885394021D64DEA00F97E25 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				4885396021D64DF400F97E25 /* circleinTests */,
 				4885396B21D64DF400F97E25 /* circleinUITests */,
 				4885394A21D64DEB00F97E25 /* Products */,
+				741BB512127B8E6DFD25935D /* Pods */,
+				F6849428CC580A24E1DBFC8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +128,7 @@
 		4885394B21D64DEB00F97E25 /* circlein */ = {
 			isa = PBXGroup;
 			children = (
+				486A613E21D7E4BE0077D27A /* Supporting files */,
 				4885394C21D64DEB00F97E25 /* AppDelegate.swift */,
 				4885394E21D64DEB00F97E25 /* ViewController.swift */,
 				4885395021D64DEC00F97E25 /* Main.storyboard */,
@@ -125,6 +157,29 @@
 			path = circleinUITests;
 			sourceTree = "<group>";
 		};
+		741BB512127B8E6DFD25935D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6865FD352E9F73DDA61CE985 /* Pods-circlein.debug.xcconfig */,
+				003534484FC46ED337211CC9 /* Pods-circlein.release.xcconfig */,
+				BAD0050FC0BC63289EC74558 /* Pods-circleinTests.debug.xcconfig */,
+				AB8176393C594FBE4EF1CC61 /* Pods-circleinTests.release.xcconfig */,
+				522A4BABDA164D6A2F50FBDB /* Pods-circleinUITests.debug.xcconfig */,
+				FF50111868A70F04C10A43AC /* Pods-circleinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6849428CC580A24E1DBFC8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D72F0FD37B7FC32F9BCB36 /* Pods_circlein.framework */,
+				DB96F5523354F1C38269DCB0 /* Pods_circleinTests.framework */,
+				B860FFD1E239479B6045C399 /* Pods_circleinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885397121D64DF400F97E25 /* Build configuration list for PBXNativeTarget "circlein" */;
 			buildPhases = (
+				ED986EB968C421368673893C /* [CP] Check Pods Manifest.lock */,
 				4885394521D64DEB00F97E25 /* Sources */,
 				4885394621D64DEB00F97E25 /* Frameworks */,
 				4885394721D64DEB00F97E25 /* Resources */,
+				630062F414DD5D1E1182A3FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885397421D64DF400F97E25 /* Build configuration list for PBXNativeTarget "circleinTests" */;
 			buildPhases = (
+				67EF79831EE1722F4E15483B /* [CP] Check Pods Manifest.lock */,
 				4885395921D64DF400F97E25 /* Sources */,
 				4885395A21D64DF400F97E25 /* Frameworks */,
 				4885395B21D64DF400F97E25 /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885397721D64DF400F97E25 /* Build configuration list for PBXNativeTarget "circleinUITests" */;
 			buildPhases = (
+				C0F296A8E484FCC60370AEFB /* [CP] Check Pods Manifest.lock */,
 				4885396421D64DF400F97E25 /* Sources */,
 				4885396521D64DF400F97E25 /* Frameworks */,
 				4885396621D64DF400F97E25 /* Resources */,
@@ -193,6 +252,7 @@
 				TargetAttributes = {
 					4885394821D64DEB00F97E25 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					4885395C21D64DF400F97E25 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,6 +311,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		630062F414DD5D1E1182A3FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-circlein/Pods-circlein-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circlein/Pods-circlein-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EF79831EE1722F4E15483B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F296A8E484FCC60370AEFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED986EB968C421368673893C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circlein-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4885394521D64DEB00F97E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +399,7 @@
 			files = (
 				4885394F21D64DEB00F97E25 /* ViewController.swift in Sources */,
 				4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */,
+				486A614221D7E52F0077D27A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +572,12 @@
 		};
 		4885397221D64DF400F97E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6865FD352E9F73DDA61CE985 /* Pods-circlein.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYQ9TMRU8A;
 				INFOPLIST_FILE = circlein/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,16 +585,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.trainco.circlein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "circlein/Supporting files/circlein-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4885397321D64DF400F97E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003534484FC46ED337211CC9 /* Pods-circlein.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYQ9TMRU8A;
 				INFOPLIST_FILE = circlein/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,13 +607,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.trainco.circlein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "circlein/Supporting files/circlein-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		4885397521D64DF400F97E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD0050FC0BC63289EC74558 /* Pods-circleinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		4885397621D64DF400F97E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8176393C594FBE4EF1CC61 /* Pods-circleinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		4885397821D64DF400F97E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522A4BABDA164D6A2F50FBDB /* Pods-circleinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		4885397921D64DF400F97E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF50111868A70F04C10A43AC /* Pods-circleinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_circleinTests {
+  umbrella header "Pods-circleinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
