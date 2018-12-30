@@ -12,6 +12,7 @@
 		486A614721D820250077D27A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614621D820250077D27A /* ChatViewController.swift */; };
 		486A614921D820530077D27A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614821D820530077D27A /* MenuViewController.swift */; };
 		486A614B21D8487B0077D27A /* yoga_carpet.json in Resources */ = {isa = PBXBuildFile; fileRef = 486A614A21D848690077D27A /* yoga_carpet.json */; };
+		486A614D21D854AB0077D27A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614C21D854AB0077D27A /* GradientView.swift */; };
 		4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885394C21D64DEB00F97E25 /* AppDelegate.swift */; };
 		4885395221D64DEC00F97E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885395021D64DEC00F97E25 /* Main.storyboard */; };
 		4885395421D64DF300F97E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885395321D64DF300F97E25 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		486A614621D820250077D27A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		486A614821D820530077D27A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		486A614A21D848690077D27A /* yoga_carpet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yoga_carpet.json; sourceTree = "<group>"; };
+		486A614C21D854AB0077D27A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4885394921D64DEB00F97E25 /* circlein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circlein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885394C21D64DEB00F97E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4885395121D64DEC00F97E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				486A614A21D848690077D27A /* yoga_carpet.json */,
+				486A614C21D854AB0077D27A /* GradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 			files = (
 				4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */,
 				486A614721D820250077D27A /* ChatViewController.swift in Sources */,
+				486A614D21D854AB0077D27A /* GradientView.swift in Sources */,
 				486A614221D7E52F0077D27A /* SWRevealViewController.m in Sources */,
 				486A614921D820530077D27A /* MenuViewController.swift in Sources */,
 			);
