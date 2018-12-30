@@ -10,13 +10,18 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
+    @IBOutlet weak var loginBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.revealViewController()?.rearViewRevealWidth = self.view.frame.width - (self.view.frame.width * 0.15)
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func loginButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
