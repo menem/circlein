@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.5.0)
+  - lottie-ios (2.5.0)
   - Socket.IO-Client-Swift (13.3.0):
     - Starscream (~> 3.0.2)
   - Starscream (3.0.5)
@@ -7,22 +8,25 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (= 4.5.0)
+  - lottie-ios
   - Socket.IO-Client-Swift
   - SwiftyJSON (= 3.1.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - lottie-ios
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   Socket.IO-Client-Swift: 0afb192a562db90d50e3f7f7421c06925a3f0179
   Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 5904f13d477a52fbd46d43428890096c228f6850
+PODFILE CHECKSUM: 27d353e284c86ddf1801d383fc6851f508c9213b
 
 COCOAPODS: 1.5.2

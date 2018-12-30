@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class ChatViewController: UIViewController {
 
@@ -17,9 +18,20 @@ class ChatViewController: UIViewController {
         self.burgerMenuBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        self.playAnimation()
         // Do any additional setup after loading the view.
     }
     
+    func playAnimation() {
+        let animationView = LOTAnimationView(name: "yoga_carpet")
+        animationView.frame = CGRect(x: 50, y: 150, width: 220, height: 220)
+        self.view.addSubview(animationView)
+        animationView.play{ (finished) in
+            animationView.removeFromSuperview()
+            self.playAnimation()
+        }
+        
+    }
 
     /*
     // MARK: - Navigation

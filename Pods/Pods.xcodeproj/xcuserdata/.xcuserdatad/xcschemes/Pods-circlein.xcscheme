@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D36E76EB1D4BB67A0762ECCCCCF1572F"
+               BlueprintIdentifier = "F0F3CE787336BDC5B3CE79EF3C25AD7A"
                BlueprintName = "Pods-circlein"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-circlein.framework">
