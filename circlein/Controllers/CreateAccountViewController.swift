@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  CreateAccountViewController.swift
 //  circlein
 //
 //  Created by Menem Ragab on 12/30/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,14 +16,9 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
     @IBAction func closePressed(_ sender: Any) {
-        dismiss(animated: true) {
-            //
-        }
-    }
-    
-    @IBAction func createAccountButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREATEACCOUNT, sender: nil)
+        performSegue(withIdentifier: UNWIND, sender: nil)
     }
     /*
     // MARK: - Navigation
