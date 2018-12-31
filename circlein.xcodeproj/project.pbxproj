@@ -12,10 +12,12 @@
 		486A614721D820250077D27A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614621D820250077D27A /* ChatViewController.swift */; };
 		486A614921D820530077D27A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614821D820530077D27A /* MenuViewController.swift */; };
 		486A614B21D8487B0077D27A /* yoga_carpet.json in Resources */ = {isa = PBXBuildFile; fileRef = 486A614A21D848690077D27A /* yoga_carpet.json */; };
-		486A614D21D854AB0077D27A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614C21D854AB0077D27A /* GradientView.swift */; };
+		486A614D21D854AB0077D27A /* TCGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A614C21D854AB0077D27A /* TCGradientView.swift */; };
 		486A615221D8D7A80077D27A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A615121D8D7A80077D27A /* Constants.swift */; };
 		486A615421D8E12B0077D27A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A615321D8E12B0077D27A /* LoginViewController.swift */; };
 		486A615621D902100077D27A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A615521D902100077D27A /* CreateAccountViewController.swift */; };
+		486A615921D9716C0077D27A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A615821D9716C0077D27A /* AuthService.swift */; };
+		486A615C21DA358E0077D27A /* TCRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A615B21DA358E0077D27A /* TCRoundedButton.swift */; };
 		4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885394C21D64DEB00F97E25 /* AppDelegate.swift */; };
 		4885395221D64DEC00F97E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885395021D64DEC00F97E25 /* Main.storyboard */; };
 		4885395421D64DF300F97E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885395321D64DF300F97E25 /* Assets.xcassets */; };
@@ -51,10 +53,12 @@
 		486A614621D820250077D27A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		486A614821D820530077D27A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		486A614A21D848690077D27A /* yoga_carpet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yoga_carpet.json; sourceTree = "<group>"; };
-		486A614C21D854AB0077D27A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		486A614C21D854AB0077D27A /* TCGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCGradientView.swift; sourceTree = "<group>"; };
 		486A615121D8D7A80077D27A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		486A615321D8E12B0077D27A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		486A615521D902100077D27A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		486A615821D9716C0077D27A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		486A615B21DA358E0077D27A /* TCRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCRoundedButton.swift; sourceTree = "<group>"; };
 		4885394921D64DEB00F97E25 /* circlein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circlein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885394C21D64DEB00F97E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4885395121D64DEC00F97E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,8 +129,9 @@
 		486A614421D81FA90077D27A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				486A614A21D848690077D27A /* yoga_carpet.json */,
-				486A614C21D854AB0077D27A /* GradientView.swift */,
+				486A615A21DA34F20077D27A /* Animations */,
+				486A614C21D854AB0077D27A /* TCGradientView.swift */,
+				486A615B21DA358E0077D27A /* TCRoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,6 +153,22 @@
 				486A615121D8D7A80077D27A /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		486A615721D971180077D27A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				486A615821D9716C0077D27A /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		486A615A21DA34F20077D27A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				486A614A21D848690077D27A /* yoga_carpet.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		4885394021D64DEA00F97E25 = {
@@ -175,6 +196,7 @@
 		4885394B21D64DEB00F97E25 /* circlein */ = {
 			isa = PBXGroup;
 			children = (
+				486A615721D971180077D27A /* Services */,
 				486A614E21D8D72A0077D27A /* Utilities */,
 				486A614521D81FB00077D27A /* Controllers */,
 				486A614421D81FA90077D27A /* Views */,
@@ -451,9 +473,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				486A615421D8E12B0077D27A /* LoginViewController.swift in Sources */,
+				486A615C21DA358E0077D27A /* TCRoundedButton.swift in Sources */,
 				4885394D21D64DEB00F97E25 /* AppDelegate.swift in Sources */,
 				486A614721D820250077D27A /* ChatViewController.swift in Sources */,
-				486A614D21D854AB0077D27A /* GradientView.swift in Sources */,
+				486A615921D9716C0077D27A /* AuthService.swift in Sources */,
+				486A614D21D854AB0077D27A /* TCGradientView.swift in Sources */,
 				486A615621D902100077D27A /* CreateAccountViewController.swift in Sources */,
 				486A614221D7E52F0077D27A /* SWRevealViewController.m in Sources */,
 				486A614921D820530077D27A /* MenuViewController.swift in Sources */,
